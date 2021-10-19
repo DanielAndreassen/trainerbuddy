@@ -2,8 +2,11 @@
     margin: 0px;
 }
 
-.about{
-    min-height: 100vh;
+.topKnappar{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    min-heigt: 5vh;
 }
 
 
