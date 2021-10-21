@@ -4,9 +4,12 @@
 
 .topKnappar{
     display: flex;
-    justify-content: center;
-    align-items: space-around;
-    min-heigt: 5vh;
+    justify-content: space-between;
+    align-items: space-between;
+    min-height: 10vh;
+    min-width: 40vh;
+    max-height: fit-content;
+    flex-direction: row-reverse;
 }
 
 
@@ -21,4 +24,11 @@ header{
 h1{
     text-align: center;
     font-family:  'Heebo', sans-serif;
+}
+
+.huvudText{
+    
+    max-width: fit-content;
+    width: 30%;
+    margin-top: 5%;
 }
