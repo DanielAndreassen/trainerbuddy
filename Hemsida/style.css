@@ -1,41 +1,42 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 
-.topKnappar{
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
-    min-height: 10vh;
-    min-width: 40vh;
-    max-height: fit-content;
-    flex-direction: row-reverse;
+.topKnappar {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  min-height: 10vh;
+  min-width: 40vh;
+  max-height: fit-content;
+  flex-direction: row-reverse;
 }
 
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 10vh;
-    border-color: black;
-    border-bottom: 2px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  background-color: green;
 }
 
-
-h1{
-    text-align: center;
-    font-family:  'Heebo', sans-serif;
+h1 {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
 }
 
-.huvudText{
-    display: flex;
-flex-grow: 4;
-align-items: center;
-justify-content: space-around ;
-margin-top: 20px;
+.huvudText {
+  display: flex;
+  flex-grow: 4;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
 }
-p{
-   max-width: 60vh;
-   min-width: 60vh;
+p {
+  max-width: 60vh;
+  min-width: 60vh;
+}
+
+footer {
+  background-color: rgb(134, 255, 134);
 }
