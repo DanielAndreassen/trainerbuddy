@@ -1,6 +1,10 @@
 * {
   margin: 0px;
 }
+body {
+  background-image: url(park2.jpg);
+  background-size: 100%;
+}
 
 .topKnappar {
   display: flex;
@@ -17,7 +21,7 @@ header {
   align-items: center;
   justify-content: space-around;
   min-height: 10vh;
-  background-color: green;
+  background-color: rgb(0, 255, 0);
 }
 
 h1 {
@@ -32,6 +36,11 @@ h1 {
   justify-content: space-around;
   margin-top: 20px;
 }
+.huvudTextText{
+  background-color: rgb(134, 255, 134);
+}
+
+
 p {
   max-width: 60vh;
   min-width: 60vh;
@@ -40,3 +49,4 @@ p {
 footer {
   background-color: rgb(134, 255, 134);
 }
+
