@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 1px;
 }
 body {
   background-image: url(wepik-20211016-103442.jpg);
@@ -33,15 +33,37 @@ h1 {
   font-family: "Heebo", sans-serif;
 }
 
+.about{
+  padding: 25px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  background-color: chartreuse;
+}
+
+.about1{
+  padding: 25px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  background-color: chartreuse;
+}
+
+.about:hover{
+  background-color: white;
+}
+
+.about1:hover{
+  background-color: white;
+}
+
 .huvudText {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 2;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 15px;
 }
-.huvudTextText{
+.huvudTextText {
   background-color: rgb(134, 255, 134);
   width: 90%;
   padding-bottom: 5%;
@@ -50,13 +72,24 @@ h1 {
   outline-color: black;
   outline-style: solid;
 }
-.signUp{
-  display: flex;
-  justify-content: end;
+.signUpUp {
   padding: 20px;
+  font-size: 50px;
+  transition-duration: 0.4s;
+  background-color: chartreuse;
 }
 
-.underHuvudText{
+.signUpUp:hover{
+  background-color: white;
+  color:black
+}
+.signUp{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 25px;
+}
+
+.underHuvudText {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 2;
@@ -65,7 +98,7 @@ h1 {
   margin-top: 5%;
 }
 
-.underHuvudTextText{
+.underHuvudTextText {
   background-color: rgb(134, 255, 134);
   width: 90%;
   padding-bottom: 5%;
@@ -75,16 +108,15 @@ h1 {
   outline-style: solid;
 }
 
-
 p {
   max-width: 60vh;
   min-width: 60vh;
 }
 
-footer {
+.reviews{
   display: flex;
   background-color: rgb(134, 255, 134);
-  margin-top: 0%;
+  margin-top: 70px;
   margin-right: 0px;
   outline-style: solid;
   outline-width: 5px;
@@ -93,4 +125,3 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
