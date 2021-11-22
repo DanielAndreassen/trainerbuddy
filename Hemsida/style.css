@@ -1,6 +1,11 @@
 * {
   margin: 1px;
 }
+
+p{
+  font-family: "Heebo", sans-serif;
+}
+
 body {
   background-image: url(wepik-20211016-103442.jpg);
   background-size: 100%;
@@ -113,10 +118,27 @@ p {
   min-width: 60vh;
 }
 
+.contactButton{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.contactButtonText{
+  padding: 25px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  background-color: chartreuse;
+}
+
+.contactButtonText:hover{
+  background-color: white;
+}
+
 .reviews{
   display: flex;
   background-color: rgb(134, 255, 134);
-  margin-top: 70px;
+  margin-top: 60px;
   margin-right: 0px;
   outline-style: solid;
   outline-width: 5px;
