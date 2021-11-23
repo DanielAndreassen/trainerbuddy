@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <header>
+    <div class="titel">
+      <a href="index.html"><button class="titelButton">Titel</button></a>
+    </div>
+  </header>
+  <body>
+    <div class="forumContainer">
+      <div class="forum">
+        <div class="regText">
+            <div class="regTextText">
+              <h2>Registrera dig</h2>
+            </div>
+          </div>
+        <div class="email">
+          <input type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="userName">
+          <input type="text" id="username" placeholder="Username" />
+        </div>
+        <div class="password">
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div class="gender">
+          <select name="Gender" id="genderSelector">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="preferNot">Prefer not to say</option>
+            <option value="none">None</option>
+          </select>
+        </div>
+        <div class="submit">
+          <input type="submit" />
+        </div>
+      </div>
+    </div>
+    <div class="login">
+      <div class="logText">
+        <div class="logTextText">
+          <h2>Logga in</h2>
+        </div>
+      </div>
+      <div class="logUsername">
+        <input type="text" id="logInUsername" placeholder="Username" />
+      </div>
+      <div class="logPassword">
+        <input type="password" id="logPassword" placeholder="Password" />
+      </div>
+      <div class="loginButton">
+        <button class="logButton">Logga in</button>
+      </div>
+    </div>
+  </body>
 </html>

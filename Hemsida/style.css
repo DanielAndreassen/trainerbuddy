@@ -4,6 +4,8 @@
 
 p{
   font-family: "Heebo", sans-serif;
+  max-width: 60vh;
+  min-width: 60vh;
 }
 
 body {
@@ -113,10 +115,6 @@ h1 {
   outline-style: solid;
 }
 
-p {
-  max-width: 60vh;
-  min-width: 60vh;
-}
 
 .contactButton{
   display: flex;

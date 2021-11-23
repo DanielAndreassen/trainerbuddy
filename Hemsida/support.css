@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url(101-1013445_big.jpg);
+  background-size: 100%;
+}
+
+.titelButton {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
+  font-size: 20px;
+  transition-duration: 0.3s;
+}
+
+.titelButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(134, 255, 134);
+}
+
+.bigcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(134, 255, 134);
+    max-width: 50%;
+    margin-left: 25%;
+    min-height: 600px;
+    border: black solid 3px;
+}
+
+.emailcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+
+.emailText{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.textText{
+    display: flex;
+    justify-content: center;
+}
+
+.texttitel{
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subButton{
+    background-color: white;
+    border: black solid 3px;
+    font-size: 16px;
+    font-family: "Heebo", sans-serif;
+    padding: 15px 27px;
+    transition-duration: 0.4s;
+}
+
+.subButton:hover{
+    background-color:lightgreen;
+}
+
+h2{
+    font-family: "Heebo", sans-serif;
+}
